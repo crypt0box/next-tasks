@@ -18,7 +18,7 @@ const NavItem: React.FC<NavItemProps> = ({ label, link, icon }) => {
         pathname === link ? "bg-gray-600 border-r-4 border-r-green-500" : ""
       }`}
     >
-      <div className="'mr-1">{icon}</div>
+      <div className="mr-1">{icon}</div>
       <div>{label}</div>
     </Link>
   );
